@@ -6,6 +6,7 @@
 
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 $(call inherit-product, vendor/statix/config/common.mk)
+$(call inherit-product, vendor/statix/config/gsm.mk)
 
 PRODUCT_NAME := statix_miatoll
 PRODUCT_DEVICE := miatoll
