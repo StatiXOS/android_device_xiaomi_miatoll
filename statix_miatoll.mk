@@ -8,6 +8,8 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 $(call inherit-product, vendor/statix/config/common.mk)
 $(call inherit-product, vendor/statix/config/gsm.mk)
 
+TARGET_USES_BLUR := true
+
 PRODUCT_NAME := statix_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
