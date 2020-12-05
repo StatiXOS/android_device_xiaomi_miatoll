@@ -1,20 +1,24 @@
 [
   {
+    "remote": "github"
     "repository": "StatiXOS/android_kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/sm6250",
     "branch": "11"
   },
   {
-    "repository": "StatiXOS/android_vendor_xiaomi",
+    "remote": "gitrip"
+    "repository": "4PERTURE/vendor-xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch": "11"
+    "branch": "Statix-11"
   },
   {
+    "remote": "github"
     "repository": "StatiXOS/android_device_xiaomi_sm6250-common",
     "target_path": "device/xiaomi/sm6250-common",
     "branch": "11"
   },
   {
+    "remote": "github"
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
     "branch": "lineage-18.0"
