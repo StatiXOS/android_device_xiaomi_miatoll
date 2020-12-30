@@ -9,7 +9,6 @@ $(call inherit-product, vendor/statix/config/common.mk)
 $(call inherit-product, vendor/statix/config/gsm.mk)
 
 TARGET_USES_BLUR := true
-STATIX_BUILD_TYPE := NUCLEAR
 
 PRODUCT_NAME := statix_miatoll
 PRODUCT_DEVICE := miatoll
